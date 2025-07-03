@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+
+}
+.detalsCart{
+    border: 1px solid #bbbaba;
+    width: 80rem;
+    height: 100rem;
+}
+.manCard{
+    display: flex;
+    justify-content: center;
+}
+.checkOut{
+    background-color: #2e51a2;;
+    /* width: 80rem; */
+    height: 2.5rem;
+
+
+}
+.animeCategory{
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    width: 8vh;
+}
+.mangaCategory{
+    width: 8vh;
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    margin-left: 10px;
+}
+.communityCategory{
+    width: 11vh;
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    margin-left: 10px;
+}
+.industryCategory{
+    width: 9vh;
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    margin-left: 10px;
+}
+.watchCategory{
+    width: 8vh;
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    margin-left: 10px;
+}
+.readCategory{
+    width: 8vh;
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    margin-left: 10px;
+}
+.supportCategory{
+    width: 7vh;
+    border: none;
+    outline: none;
+    /* margin: ; */
+    padding: 10px 0px ;
+    background-color:#2e51a2 ;
+    color: white;
+    margin-left: 10px;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+}
+.allCategory{
+    width: 15vh;
+    height: 2.6vh;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 2px 5px ;
+    background-color:#000000 ;
+    color: white;
+}
+.search-anime-name{
+    width: 30vh;
+    /* border-right: 7px; */
+    border: none;
+    outline: none;
+    padding: 4px 5px ;
+    background-color:#000000 ;
+    color: white;
+    border-left: #2e51a2 1px solid
+}
+.animeCheck{
+    display: flex;
+    align-items: center;
+}
+.searchImage{
+    margin-top: 4px;
+    width: 23.5px;
+    background-color: #666;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px ;
+}
+.searchDiv{
+    display: flex;
+    align-items: center;
+}
+.line{
+    margin-top: 10px;
+    width: 80rem;
+    height: 1px;
+    background-color: #ffffff;
+}

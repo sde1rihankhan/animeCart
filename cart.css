@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+}
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0px 30px;
+  }
+.status{
+    border: 2px solid #ff00003d;
+    padding: 10px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(224 218 125 / 65%), rgb(195 124 209 / 56%));
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 1px 5px;
+}
+.cardList img{
+    width: 20vh;
+    height: 25vh;
+    border: 2px solid #ff00fd;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 10px;
+}
+.episodes{
+    /* text-shadow: 2px 3px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+.users{
+    font-size: 10px;
+    text-shadow: 1px 1px 2px #ffffff;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.score{
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(0, 0, 0);
+}
+.cardList h3{
+    /* text-shadow: 2px 3px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+}
+.name{
+    border: 2px solid #ff00003d;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, rgb(224 218 125 / 65%), rgb(195 124 209 / 56%));
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 1px 5px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+.producerName{
+    border: 2px solid #ff00003d;
+    padding: 5px 10px;
+    background-image: linear-gradient(to right, rgb(224 218 125 / 65%), rgb(195 124 209 / 56%));
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 1px 5px;
+}
+
+.cardList{
+    cursor: pointer;
+    width: 20rem;
+    height: 30rem;
+    border: 3px solid #bbbaba;
+    text-align: center;
+    border-radius: 10px;
+    /* background-image: conic-gradient(red, yellow, green, blue, black); */
+    /* background-image: linear-gradient(red, yellow, green); */
+    background-image: linear-gradient(to bottom right, #e600ff54, #00ffe459);
+}
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.searchImage{
+    width: 25px;
+}
+.searchBar{
+    border:2px solid black ;
+    width: 45rem;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+.searchInput{
+    width: 42rem;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
